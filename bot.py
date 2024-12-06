@@ -30,10 +30,10 @@ class BotzPW(Client):
                 print(e)
                 print("Make Sure Bot admin in force sub channel")
                 self.force_channel = None
+        # Start the web server
         app = web.AppRunner(await web_server())
         await app.setup()
-        bind_address = "0.0.0.0"
-        await web.TCPSite(app, bind_address, Config.PORT).start()
+        await web.TCPSite(app, "0.0.0.0", Config.PORT).start()
         print(f"{me.first_name} Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️")
         for id in Config.ADMIN:
             try:
