@@ -1,5 +1,3 @@
-
-
 from aiohttp import web
 from pyrogram import Client
 from config import Config
