@@ -5,7 +5,7 @@ BotzPW = web.RouteTableDef()
 
 @BotzPW.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response({"message": "https://t.me/Techshyam_auto_caption_bot"})
+    return web.json_response("hello world")
 
 # Create the web server
 async def web_server():
