@@ -6,7 +6,7 @@ class Config(object):
 
     API_ID = os.environ.get("API_ID", "22384370")
     API_HASH = os.environ.get("API_HASH", "05e2be75292ecbec3f7a29bf13b1e29e")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7260815392:AAFXkkcwm8tdWIkw58IvDroeepBOXr7bw2E")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8111134914:AAEjc9qhiuPGDnob9OS2zL31eOnd6j8PRPk")
 
     # start_pic
     START_PIC = os.environ.get("START_PIC", "https://graph.org/file/5d01f129358105db8f748.jpg")
